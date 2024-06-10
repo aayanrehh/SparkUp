@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: coral;
+    background: #8a2be2; /* Electric Purple */
     color: white;
     padding: 1rem 0;
 }
@@ -51,7 +51,7 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: green;
+    background: #8a2be2; /* Electric Purple */
     height: 400px;
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ section .container {
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: green;
+    color: #8a2be2; /* Electric Purple */
 }
 
 .intro p {
@@ -105,14 +105,14 @@ section h2 {
     background: #1e1e1e;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: coral;
+    color: #8a2be2; /* Electric Purple */
 }
 
 blockquote {
     margin: 1rem 0;
     padding: 1rem;
     background: #1e1e1e;
-    border-left: 5px solid coral;
+    border-left: 5px solid #8a2be2; /* Electric Purple */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #f4f4f4;
@@ -154,7 +154,7 @@ form button {
     margin-top: 1rem;
     padding: 0.7rem;
     font-size: 1.2rem;
-    background: coral;
+    background: #8a2be2; /* Electric Purple */
     color: white;
     border: none;
     border-radius: 4px;
@@ -162,11 +162,11 @@ form button {
 }
 
 form button:hover {
-    background: #e6c200;
+    background: #7a1cbf;
 }
 
 footer {
-    background: coral;
+    background: #8a2be2; /* Electric Purple */
     color: white;
     text-align: center;
     padding: 1rem 0;
