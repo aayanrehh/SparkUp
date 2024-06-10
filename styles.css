@@ -8,13 +8,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #121212;
-    color: #f4f4f4;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
-    background: #000;
-    color: #ffcc00;
+    background: coral;
+    color: white;
     padding: 1rem 0;
 }
 
@@ -29,7 +29,6 @@ header .container {
 
 header h1 {
     font-size: 2rem;
-    color: #ffcc00;
 }
 
 nav ul {
@@ -42,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffcc00;
+    color: white;
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -52,26 +51,24 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
+    background: green;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: white;
     text-align: center;
 }
 
 .hero h2 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: #ffcc00;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .hero p {
     font-size: 1.5rem;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 section {
@@ -88,12 +85,12 @@ section .container {
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ffcc00;
+    color: green;
 }
 
 .intro p {
     font-size: 1.2rem;
-    color: #ffcc00;
+    color: #333;
 }
 
 .services ul {
@@ -105,20 +102,20 @@ section h2 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     padding: 1rem;
-    background: #333;
+    background: #1e1e1e;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #ffcc00;
+    color: coral;
 }
 
 blockquote {
     margin: 1rem 0;
     padding: 1rem;
-    background: #333;
-    border-left: 5px solid #ffcc00;
+    background: #1e1e1e;
+    border-left: 5px solid coral;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #ffcc00;
+    color: #f4f4f4;
 }
 
 blockquote p {
@@ -129,7 +126,7 @@ blockquote p {
 blockquote footer {
     text-align: right;
     font-size: 1rem;
-    color: #999;
+    color: #cccccc;
 }
 
 form {
@@ -140,7 +137,7 @@ form {
 form label {
     margin-top: 1rem;
     font-size: 1.1rem;
-    color: #ffcc00;
+    color: #333;
 }
 
 form input, form textarea {
@@ -149,28 +146,28 @@ form input, form textarea {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background: #333;
-    color: #fff;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 form button {
     margin-top: 1rem;
     padding: 0.7rem;
     font-size: 1.2rem;
-    background: #ffcc00;
-    color: #000;
+    background: coral;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #e6b800;
+    background: #e6c200;
 }
 
 footer {
-    background: #000;
-    color: #ffcc00;
+    background: coral;
+    color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
