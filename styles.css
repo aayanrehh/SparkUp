@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #000000;
     color: #333;
 }
 
@@ -115,7 +115,7 @@ blockquote {
     border-left: 5px solid #8a2be2; /* Electric Purple */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #f4f4f4;
+    color: hsl(0, 0%, 2%);
 }
 
 blockquote p {
@@ -126,7 +126,7 @@ blockquote p {
 blockquote footer {
     text-align: right;
     font-size: 1rem;
-    color: #cccccc;
+    color: #010101;
 }
 
 form {
